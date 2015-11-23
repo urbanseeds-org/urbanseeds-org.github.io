@@ -1,7 +1,7 @@
 ---
-title: Hasenour's Organice Produce
 layout: post
 
+title: Hasenour's Organic Produce
 farm-name: Hasenour's Organic Produce
 farm-type: Meat, Produce
 farm-street: 8564 South 200W
