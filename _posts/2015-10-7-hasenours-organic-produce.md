@@ -1,5 +1,5 @@
 ---
-title: Local Farms
+title: Hasenour's Organice Produce
 layout: post
 
 farm-name: Hasenour's Organic Produce
