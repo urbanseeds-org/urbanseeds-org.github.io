@@ -1,16 +1,19 @@
 ---
-title: Jekyll Is Here
+title: Local Farms
 layout: post
-farmer: Oliane Organics
-type:
-street:
-city:
-state:
-zip:
-website: http://www.googele.com
-description:
+
+farm-name: Hasenour's Organic Produce
+farm-type: Meat, Produce
+farm-street: 8564 South 200W
+farm-city: Huntingburg
+farm-state: IN
+farm-zip: 47542
+farm-phone: 812-683-4780
+farm-website: http://www.facebook.com/pages/Hasenours-Organic-Produce/286941921360964
+farm-image: 
 ---
+<> THIS IS A COMMENT, it will not show on the website. anything with <> before the line will not show to public
+<> DO NOT REMOVE THE --- characters above. It will break the web pages.
+<> Below this line will be the description. You can use several paragraphs. 
 
-#Today was the first day of Jekyll 
-
-Cheers to that!
+We carry certified organic tomatoes, cucumbers, hydroponic lettuce. When in season we have sweet corn. We also have all natural beef and pork. You can buy the meat by the pound, 1/4, 1/2 or whole animal.
