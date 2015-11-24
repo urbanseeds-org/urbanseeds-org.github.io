@@ -68,7 +68,7 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 /* (tablets, 768px and up) */
 @media (min-width: 768px) { 
 	.navbar-header {float:none;text-align:center;}
-	.navbar-brand {float:none;}
+	.navbar-brand {float:none;padding:0;}
  	.navbar-brand img {height:auto;display:inline-block;margin:20px 0;}
  	.nav>li {display:inline-block;}
  	.navbar-nav>li {float:none;}
