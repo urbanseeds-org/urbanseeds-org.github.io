@@ -59,7 +59,7 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 /*breakpoints
 -----------------*/
 /* (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 
+@media (min-width: 768px) { 
 	.navbar-header {float:none;text-align:center;}
  .navbar-brand img {height:auto;}
 
