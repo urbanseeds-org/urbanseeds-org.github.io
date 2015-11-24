@@ -63,6 +63,7 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 .navbar-brand img {height:50px;}
 .navbar-inverse {background: url('/images/bg_dark.jpg');}
 .navbar-toggle {margin-top:28px;}
+.hp-banner {background-image:url('/images/hp-carrot.jpg');font-size:60px;color:white;}
 
 
 
