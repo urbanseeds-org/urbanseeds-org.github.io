@@ -3,7 +3,7 @@ layout: post
 
 title: Hasenour's Organic Produce
 farm-name: Hasenour's Organic Produce
-farm-type: Meat, Produce
+categories: Meat, Produce
 farm-street: 8564 South 200W
 farm-city: Huntingburg
 farm-state: IN
