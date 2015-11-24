@@ -59,18 +59,20 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 /*overwritten bootstrap styles
 -----------------*/
 
+ body {margin-top:100px;}
 .navbar-brand {float:none;margin:8px 15px;height:100%;display:block;}
 .navbar-brand img {height:50px;}
 .navbar-inverse {background: url('/images/bg_dark.jpg');}
 .navbar-toggle {margin-top:28px;}
 .hp-banner {background-image:url('/images/hp-carrot.jpg');font-size:60px;color:white;}
-
+ 
 
 
 /*breakpoints
 -----------------*/
 /* (tablets, 768px and up) */
 @media (min-width: 768px) { 
+	 body {margin-top:220px;}
 	.navbar-header {float:none;text-align:center;}
 	.navbar-brand {float:none;padding:0;}
  	.navbar-brand img {height:auto;display:inline-block;margin:20px 0;}
