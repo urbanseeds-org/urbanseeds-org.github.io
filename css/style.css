@@ -54,14 +54,18 @@ input { font-family: 'Sentinel A', 'Sentinel B'; }
 ul#tsarotate { list-style-type: none; margin: auto; padding: 0; width: 100%; max-width: 100%; min-width: 980px; height: 410px;}
 ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; max-width: 100%; min-width: 980px; height: 410px; }
 
-.navbar-brand img {height:50px}
 
+
+
+.navbar-brand img {height:50px}
+.navbar-inverse {background: url('/images/bg_dark.jpg');}
 /*breakpoints
 -----------------*/
 /* (tablets, 768px and up) */
 @media (min-width: 768px) { 
 	.navbar-header {float:none;text-align:center;}
- .navbar-brand img {height:auto;}
+	.navbar-brand {float:none;}
+ 	.navbar-brand img {height:auto;display:inline-block;margin:20px 0;}
 
 }
 
