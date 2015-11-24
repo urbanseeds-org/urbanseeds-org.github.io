@@ -54,7 +54,16 @@ input { font-family: 'Sentinel A', 'Sentinel B'; }
 ul#tsarotate { list-style-type: none; margin: auto; padding: 0; width: 100%; max-width: 100%; min-width: 980px; height: 410px;}
 ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; max-width: 100%; min-width: 980px; height: 410px; }
 
-
-/*-----------------*/
-
 .navbar-brand img {height:50px}
+
+/*breakpoints
+-----------------*/
+/* (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+	.navbar-header {float:none;text-align:center;}
+ .navbar-brand img {height:auto;}
+
+}
+
+
+
