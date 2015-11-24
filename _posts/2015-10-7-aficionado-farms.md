@@ -3,7 +3,7 @@ layout: post
 
 title: Aficionado Farms
 farm-name: Aficionado Farms
-categories: Produce
+categories: produce
 farm-street: 8633 Outer Lincoln Ave.
 farm-city: Newburgh
 farm-state: IN
