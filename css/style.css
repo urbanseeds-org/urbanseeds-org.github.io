@@ -59,7 +59,7 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 /*overwritten bootstrap styles
 -----------------*/
 
- body {margin-top:100px;}
+ body {margin-top:97px;}
 .navbar-brand {float:none;margin:8px 15px;height:100%;display:block;}
 .navbar-brand img {height:50px;}
 .navbar-inverse {background: url('/images/bg_dark.jpg');}
