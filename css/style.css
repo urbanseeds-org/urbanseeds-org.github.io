@@ -71,7 +71,7 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 	.navbar-brand {float:none;padding:0;}
  	.navbar-brand img {height:auto;display:inline-block;margin:20px 0;}
  	.nav>li {display:inline-block;}
- 	.navbar-nav>li {float:none;}
+ 	.navbar-nav>li {float:none;text-transform:uppercase;}
  	.navbar-nav {float:none;text-align:center;}
 
 }
