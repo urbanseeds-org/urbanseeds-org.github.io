@@ -56,7 +56,7 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 
 
 
-.navbar-brand a {float:none;margin-left:15px;}
+.navbar-brand {float:none;margin-left:15px;}
 .navbar-brand img {height:50px;}
 .navbar-inverse {background: url('/images/bg_dark.jpg');}
 .navbar-toggle {margin-top:28px;}
@@ -71,7 +71,7 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 	.navbar-brand {float:none;}
  	.navbar-brand img {height:auto;display:inline-block;margin:20px 0;}
  	.nav>li {display:inline-block;}
- 	.navbar-nav>li {float:none;}
+ 	.navbar-nav>li, .navbar-nav {float:none;}
 
 }
 
