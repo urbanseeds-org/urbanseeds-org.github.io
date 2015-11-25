@@ -64,8 +64,8 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 .navbar-brand img {height:50px;}
 .navbar-inverse {background: url('/images/bg_dark.jpg');}
 .navbar-toggle {margin-top:28px;}
-.hp-banner {text-align:center;background-image:url('/images/hp-carrot.jpg');font-size:26px;color:white;}
- 
+.hp-banner {padding:100px 5px;text-align:center;background-image:url('/images/hp-carrot.jpg');font-size:26px;color:white}
+.container-full {padding:0;}
 
 
 /*breakpoints
