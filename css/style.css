@@ -64,7 +64,8 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 .navbar-brand img {height:50px;}
 .navbar-inverse {background: url('/images/bg_dark.jpg');}
 .navbar-toggle {margin-top:28px;}
-.hp-banner {padding:100px 5px;text-align:center;background-image:url('/images/hp-carrot.jpg');font-size:26px;color:white;text-shadow: 2px 2px rgba(0,0,0,.5);}
+.hp-banner {padding:100px 5px;text-align:center;background-image:url('/images/hp-carrot.jpg');background-size:cover;font-size:24px;color:white;text-shadow: 2px 2px rgba(0,0,0,.5);}
+.hp-banner h1 {font-size:24px;}
 .container-full {padding:0;}
 
 
@@ -82,7 +83,7 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
  	.navbar-nav {float:none;text-align:center;margin:0 -15px; }
 
  	.navbar-inverse .navbar-nav>li>a {color:#f4f4f4;}
- 	.hp-banner {font-size:36px;}
+ 	.hp-banner h1 {font-size:36px;}
 
 }
 
