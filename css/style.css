@@ -75,6 +75,7 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 @media (min-width: 768px) { 
 	 body {margin-top:0;}
 	 .navbar-fixed-top {position:relative;} /*remove fixed location on desktop*/
+	 .navbar {margin-bottom:0;}
 	.navbar-header {float:none;text-align:center;}
 	.navbar-brand {float:none;padding:0;}
  	.navbar-brand img {height:auto;display:inline-block;margin:20px 0;}
