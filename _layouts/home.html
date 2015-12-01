@@ -50,12 +50,15 @@
       </div>
     </nav>
 
-    <div class="container-fluid container-full bgwrap">
+    <div class="container-fluid container-full"> 
+      <div class="hp-banner"><h1>We are bridging the gap between farmers and consumers. Proudly serving Southern Indiana.</h1><button class="btn btn-lg btn-success">Check out a few local farms</button>
+    </div>
+    <div class="bgwrap">
     <div class="container">
       <div class="us-template" style="padding:50px 0">
 
-        
-        {{ content }}
+        {% include content_homepage.html %}
+       
       </div>
     </div>
     </div>
