@@ -53,13 +53,20 @@
     <div class="container-fluid container-full"> 
       <div class="hp-banner"><h1>We are bridging the gap between farmers and consumers. Proudly serving Southern Indiana.</h1><button class="btn btn-lg btn-success">Check out a few local farms</button>
     </div>
-    <div class="bgwrap">
+    <div class="bgwrap" style="padding:50px 0">
     <div class="container">
-      <div class="bglight" style="margin:50px 0">
+      <div class="row">
+      <div class="col-md-8 bglight">
 
         {% include content_homepage.html %}
        
       </div>
+      <div class="col-md-4 bggreen home-newsletter">
+
+        {% include content_newletter.html %}
+       
+      </div>
+    </div>
     </div>
     </div>
 
