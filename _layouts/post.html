@@ -10,19 +10,20 @@ layout: default
 <div>{{ page.farm-phone }}</div>
 <div>{{ page.farm-type }}</div>
 <div>{{ page.farm-street }}</div>
+<div>{{ page.categories | array_to_sentence_string }}</div>
 <div>{{ page.farm-city }},{{ page.farm-state }} {{ page.farm-zip }}</div>
 
 {{ content }}  
   
   <div> All farms</div>
-  {% for post in site.posts %}
+  {% for post in site.posts | sort:'title', 'first' %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 
 <div>Meat</div>
-  {% for post in site.categories.meat %}
+  {% for post in site.categories.meat | sort:'title', 'first' %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
