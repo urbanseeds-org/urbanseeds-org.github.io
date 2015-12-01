@@ -68,6 +68,7 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 .hp-banner h1 {font-size:24px;line-height: 35px;}
 .container-full {padding:0;line-height: 35px}
 .bgwrap {background-image: url('/images/bg_wood.jpg')}
+.bglight {background-image: url('/images/bg_light.jpg');color:#555;}
 
 .yellow {color:#f2d300;}
 .green {color:#7cb155;}
