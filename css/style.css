@@ -69,6 +69,11 @@ ul#tsarotate li { list-style-type: none; margin: auto; padding: 0; width: 100%; 
 .container-full {padding:0;line-height: 35px}
 .bgwrap {background-image: url('/images/bg_wood.jpg')}
 
+.yellow {color:#f2d300;}
+.green {color:#7cb155;}
+.white {color:#fff;}
+p {margin: 0 0 30px;}
+
 
 /*breakpoints
 -----------------*/
