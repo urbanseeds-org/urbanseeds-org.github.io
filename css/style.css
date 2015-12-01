@@ -1,9 +1,9 @@
 html { margin: 0; padding: 0; text-align: left; }
 body { padding: 0; margin: 0; height: 100%; background: #333333; color: #333333; text-align: left; font-size: 18px; line-height: 24px; font-family: 'Bitter', serif; }
  
-a:link, a:visited { color: #433128; text-decoration: none; }
+/*a:link, a:visited { color: #433128; text-decoration: none; }
 a:hover, a:active { color: #e0ae38; text-decoration: none; }
- 
+ */
 h1 { font-size: 36px; line-height: 48px; font-weight: normal; color: #FFFFFF; margin: 0 0 25px 0; }
 h2 { font-size: 24px; line-height: 30px; font-weight: normal; margin-top: 10px; }
  
