@@ -4,7 +4,7 @@ layout: default
 
 <h1>LOCAL FARM</h1>
 <h2>{{ page.title }}</h2>
-<h4>{{ page.farm-city }},{{ page.farm-state }}</h4>
+<h4>{{ page.farm-city }}, {{ page.farm-state }}</h4>
 
 <div><a href="{{ page.farm-website }}">{{ page.farm-website }}</a></div>
 <div>{{ page.farm-phone }}</div>
@@ -16,7 +16,8 @@ layout: default
 {{ content }}  
   
   <div> All farms</div>
-  {% for post in site.posts | sort:'title', 'first' %}
+  {{site.posts | sort:'title', 'first'}}
+  {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
