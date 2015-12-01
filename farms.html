@@ -1,0 +1,76 @@
+---
+layout: default
+title: Local Farms
+slug: farms
+---
+<h1>Local Farms</h1>
+
+
+<div>Produce</div>
+  {% for post in site.categories.produce %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+
+
+<div>Meat</div>
+  {% for post in site.categories.meat %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+
+  <div>Dairy</div>
+  {% for post in site.categories.dairy %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+
+  <div>Eggs</div>
+  {% for post in site.categories.eggs %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+
+
+  <div>Seeds, Beans, Grains</div>
+  {% for post in site.categories.grains %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %} 
+
+
+  <div>Plants, Flowers</div>
+  {% for post in site.categories.plants %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %} 
+
+  <div>Honey</div>
+  {% for post in site.categories.honey %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+
+
+
+  <div>U-pick</div>
+  {% for post in site.categories.u-pick %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+
+
+  <div>CSA</div>
+  {% for post in site.categories.csa %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
